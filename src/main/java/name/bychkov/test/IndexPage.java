@@ -11,6 +11,6 @@ public class IndexPage implements Serializable
 {
 	public void doException()
 	{
-		throw new RuntimeException();
+		throw new CustomException();
 	}
 }
